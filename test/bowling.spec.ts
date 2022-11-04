@@ -1,6 +1,6 @@
 import { getFrameScore, getLineScore, isSpare, isStrike } from '../src/bowling';
 
-describe('bowling', () => {
+describe('Bowling', () => {
   describe('isStrike', () => {
     it('a strike is when all 10 pins are down on first throw', () => {
       expect(isStrike([10])).to.be.true;
